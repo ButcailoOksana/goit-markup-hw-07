@@ -19,40 +19,50 @@
       referrerpolicy="no-referrer"
     />
     <!--<link rel="stylesheet" href="./css/styles.css" />-->
-    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!--шапка-->
     <header class="header">
       <div class="container header-nav">
+        <a class="header-logo link" href=""
+          >Web<span class="studio">Studio</span></a
+        >
         <nav class="header-navigation">
-          <a class="header-logo link" href=""
-            >Web<span class="studio">Studio</span></a
-          >
-          <ul class="header-list list">
-            <li class="header-item">
-              <a class="header-link link current" href="./index.html">Студия</a>
+          <ul class="menu-list list">
+            <li class="menu-list__item">
+              <a class="menu-list__link link current" href="./index.html"
+                >Студия</a
+              >
             </li>
-            <li class="header-item">
-              <a href="./portfolio.html" class="header-link link">Портфолио</a>
+            <li class="menu-list__item">
+              <a href="./portfolio.html" class="menu-list__link link"
+                >Портфолио</a
+              >
             </li>
-            <li class="header-item">
-              <a href="" class="header-link link">Контакты</a>
+            <li class="menu-list__item">
+              <a href="" class="menu-list__link link">Контакты</a>
             </li>
           </ul>
         </nav>
         <ul class="header-contact">
-          <li class="item">
-            <a class="header-mail link" href="mailto:info@devstudio.com ">
-              <svg class="icon-header-mail" width="16" height="12">
+          <li class="header-contact__item">
+            <a
+              class="header-contact__link header-mail link"
+              href="mailto:info@devstudio.com "
+            >
+              <svg class="header__icon mail" width="16" height="12">
                 <use href="./img/symbol-defs.svg#icon-mail"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="item">
-            <a class="header-tel link" href="tel:+380961111111">
-              <svg class="icon-header-tel" width="10" height="15">
+          <li class="header-contact__item">
+            <a
+              class="header-contact__link header-tel link"
+              href="tel:+380961111111"
+            >
+              <svg class="header__icon tel" width="10" height="15">
                 <use href="./img/symbol-defs.svg#icon-smartphone3"></use>
               </svg>
               +38 096 111 11 11</a
@@ -74,12 +84,12 @@
         </div>
       </section>
       <!--Особенности-->
-      <section class="specifics-section">
+      <section class="specifics">
         <div class="container">
           <h2 class="visually-hidden">Особенности</h2>
-          <ul class="specifics-list list">
-            <li class="specifics-item">
-              <div class="icon">
+          <ul class="feature list">
+            <li class="feature__item">
+              <div class="feature__icon">
                 <svg class="icon-specifics" width="70" height="70">
                   <use href="./img/symbol-defs.svg#icon-antenna"></use>
                 </svg>
@@ -90,8 +100,8 @@
                 формированию позиции.
               </p>
             </li>
-            <li class="specifics-item">
-              <div class="icon">
+            <li class="feature__item">
+              <div class="feature__icon">
                 <svg class="icon-specifics" width="70" height="70">
                   <use href="./img/symbol-defs.svg#icon-clock"></use>
                 </svg>
@@ -102,8 +112,8 @@
                 кадров влечет за собой.
               </p>
             </li>
-            <li class="specifics-item">
-              <div class="icon">
+            <li class="feature__item">
+              <div class="feature__icon">
                 <svg class="icon-specifics" width="70" height="70">
                   <use href="./img/symbol-defs.svg#icon-diagram"></use>
                 </svg>
@@ -114,8 +124,8 @@
                 степени обуславливает.
               </p>
             </li>
-            <li class="specifics-item">
-              <div class="icon">
+            <li class="feature__item">
+              <div class="feature__icon">
                 <svg class="icon-specifics" width="70" height="70">
                   <use href="./img/symbol-defs.svg#icon-astronaut"></use>
                 </svg>

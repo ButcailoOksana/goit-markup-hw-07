@@ -18,41 +18,47 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="header line-portfolio">
       <div class="container header-nav">
+        <a class="header-logo link" href=""
+          >Web<span class="studio">Studio</span></a
+        >
         <nav class="header-navigation">
-          <a class="header-logo link" href=""
-            >Web<span class="studio">Studio</span></a
-          >
-          <ul class="header-list list">
-            <li class="header-item">
-              <a href="./index.html" class="header-link link">Студия</a>
+          <ul class="menu-list list">
+            <li class="menu-list__item">
+              <a href="./index.html" class="menu-list__link link">Студия</a>
             </li>
-            <li class="header-item">
-              <a href="./portfolio.html" class="header-link link current"
+            <li class="menu-list__item">
+              <a href="./portfolio.html" class="menu-list__link link current"
                 >Портфолио</a
               >
             </li>
-            <li class="header-item">
-              <a href="" class="header-link link">Контакты</a>
+            <li class="menu-list__item">
+              <a href="" class="menu-list__link link">Контакты</a>
             </li>
           </ul>
         </nav>
         <ul class="header-contact">
-          <li class="item">
-            <a class="header-mail link" href="mailto:info@devstudio.com ">
-              <svg class="icon-header-mail" width="16" height="12">
+          <li class="header-contact__item">
+            <a
+              class="header-contact__link header-mail link"
+              href="mailto:info@devstudio.com "
+            >
+              <svg class="header__icon mail" width="16" height="12">
                 <use href="./img/symbol-defs.svg#icon-mail"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="item">
-            <a class="header-tel link" href="tel:+380961111111">
-              <svg class="icon-header-tel" width="10" height="15">
+          <li class="header-contact__item">
+            <a
+              class="header-contact__link header-tel link"
+              href="tel:+380961111111"
+            >
+              <svg class="header__icon tel" width="10" height="15">
                 <use href="./img/symbol-defs.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -65,50 +71,50 @@
       <section class="portfolio">
         <div class="container">
           <!--Фільтр-->
-          <ul class="portfolio-filter-list list">
-            <li class="portfolio-filter-item">
-              <button class="portfolio-btn" type="button">Все</button>
+          <ul class="filter list">
+            <li class="filter__item">
+              <button class="filter__btn" type="button">Все</button>
             </li>
-            <li class="portfolio-filter-item">
-              <button class="portfolio-btn" type="button">Веб-сайты</button>
+            <li class="filter__item">
+              <button class="filter__btn" type="button">Веб-сайты</button>
             </li>
-            <li class="portfolio-filter-item">
-              <button class="portfolio-btn" type="button">Приложения</button>
+            <li class="filter__item">
+              <button class="filter__btn" type="button">Приложения</button>
             </li>
-            <li class="portfolio-filter-item">
-              <button class="portfolio-btn" type="button">Дизайн</button>
+            <li class="filter__item">
+              <button class="filter__btn" type="button">Дизайн</button>
             </li>
-            <li class="portfolio-filter-item">
-              <button class="portfolio-btn" type="button">Маркетинг</button>
+            <li class="filter__item">
+              <button class="filter__btn" type="button">Маркетинг</button>
             </li>
           </ul>
 
           <!--поекти портфоліо-->
           <h1 class="portfolio-title-first visually-hidden">Портфолио</h1>
-          <ul class="portfolio-list list">
-            <li class="portfolio-item">
-              <a class="portfolio-link link" href="">
-                <div class="box-portfolio">
+          <ul class="project project-list list">
+            <li class="project__item portfolio-item">
+              <a class="project__link link" href="">
+                <div class="project__img">
                   <img
                     src="./img/portfolio/tehnokrjar.jpg "
                     alt="tehnokrjar"
                     width="370"
                   />
-                  <p class="overlay">
+                  <p class="project__text overlay">
                     Ресурс предлагает комплексные предложения с разным уровнем
                     функционала и сервисов. Все это позволит посетителю получить
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
-                <div class="portfolio-section">
-                  <h2 class="portfolio-title">Технокряк</h2>
-                  <p class="portfolio-text">Веб-сайт</p>
+                <div class="project-card portfolio-section">
+                  <h2 class="project-card__title">Технокряк</h2>
+                  <p class="project-card__text">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-item">
-              <a class="portfolio-link link" href="">
-                <div class="box-portfolio">
+            <li class="project__item portfolio-item">
+              <a class="project__link link" href="">
+                <div class="project__img">
                   <img
                     src="./img/portfolio/posternew.jpg"
                     alt="posternew"
@@ -120,17 +126,17 @@
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
-                <div class="portfolio-section">
-                  <h2 class="portfolio-title">
+                <div class="project-card portfolio-section">
+                  <h2 class="project-card__title">
                     Постер New Orlean vs Golden Star
                   </h2>
-                  <p class="portfolio-text">Дизайн</p>
+                  <p class="project-card__text">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-item">
-              <a class="portfolio-link link" href="">
-                <div class="box-portfolio">
+            <li class="project__item portfolio-item">
+              <a class="project__link link" href="">
+                <div class="project__img">
                   <img
                     src="./img/portfolio/restaurantseafood.jpg"
                     alt="restaurantseafood"
@@ -142,15 +148,15 @@
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
-                <div class="portfolio-section">
-                  <h2 class="portfolio-title">Ресторан Seafood</h2>
-                  <p class="portfolio-text">Приложение</p>
+                <div class="project-card portfolio-section">
+                  <h2 class="project-card__title">Ресторан Seafood</h2>
+                  <p class="project-card__text">Приложение</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-item">
-              <a class="portfolio-link link" href="">
-                <div class="box-portfolio">
+            <li class="project__item portfolio-item">
+              <a class="project__link link" href="">
+                <div class="project__img">
                   <img
                     src="./img/portfolio/proektprime.jpg"
                     alt="proektprime"
@@ -162,15 +168,15 @@
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
-                <div class="portfolio-section">
-                  <h2 class="portfolio-title">Проект Prime</h2>
-                  <p class="portfolio-text">Маркетинг</p>
+                <div class="project-card portfolio-section">
+                  <h2 class="project-card__title">Проект Prime</h2>
+                  <p class="project-card__text">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-item">
-              <a class="portfolio-link link" href="">
-                <div class="box-portfolio">
+            <li class="project__item portfolio-item">
+              <a class="project__link link" href="">
+                <div class="project__img">
                   <img
                     src="./img/portfolio/proektboxes.jpg"
                     alt="proektboxes"
@@ -182,15 +188,15 @@
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
-                <div class="portfolio-section">
-                  <h2 class="portfolio-title">Проект Boxes</h2>
-                  <p class="portfolio-text">Приложение</p>
+                <div class="project-card portfolio-section">
+                  <h2 class="project-card__title">Проект Boxes</h2>
+                  <p class="project-card__text">Приложение</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-item">
-              <a class="portfolio-link link" href="">
-                <div class="box-portfolio">
+            <li class="project__item portfolio-item">
+              <a class="project__link link" href="">
+                <div class="project__img">
                   <img
                     src="./img/portfolio/inspiration.jpg"
                     alt="inspiration"
@@ -202,15 +208,17 @@
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
-                <div class="portfolio-section">
-                  <h2 class="portfolio-title">Inspiration has no Borders</h2>
-                  <p class="portfolio-text">Веб-сайт</p>
+                <div class="project-card portfolio-section">
+                  <h2 class="project-card__title">
+                    Inspiration has no Borders
+                  </h2>
+                  <p class="project-card__text">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-item">
-              <a class="portfolio-link link" href="">
-                <div class="box-portfolio">
+            <li class="project__item portfolio-item">
+              <a class="project__link link" href="">
+                <div class="project__img">
                   <img
                     src="./img/portfolio/limitededition.jpg"
                     alt="limitededition"
@@ -222,15 +230,15 @@
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
-                <div class="portfolio-section">
-                  <h2 class="portfolio-title">Издание Limited Edition</h2>
-                  <p class="portfolio-text">Дизайн</p>
+                <div class="project-card portfolio-section">
+                  <h2 class="project-card__title">Издание Limited Edition</h2>
+                  <p class="project-card__text">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-item">
-              <a class="portfolio-link link" href="">
-                <div class="box-portfolio">
+            <li class="project__item portfolio-item">
+              <a class="project__link link" href="">
+                <div class="project__img">
                   <img src="./img/portfolio/lab.jpg" alt="lab" width="370" />
                   <p class="overlay">
                     Ресурс предлагает комплексные предложения с разным уровнем
@@ -238,15 +246,15 @@
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
-                <div class="portfolio-section">
-                  <h2 class="portfolio-title">Проект LAB</h2>
-                  <p class="portfolio-text">Маркетинг</p>
+                <div class="project-card portfolio-section">
+                  <h2 class="project-card__title">Проект LAB</h2>
+                  <p class="project-card__text">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="portfolio-item">
-              <a class="portfolio-link link" href="">
-                <div class="box-portfolio">
+            <li class="project__item portfolio-item">
+              <a class="project__link link" href="">
+                <div class="project__img">
                   <img
                     src="./img/portfolio/growingbusiness.jpg"
                     alt="growingbusiness"
@@ -258,9 +266,9 @@
                     исчерпывающие сведения о компании или частном лице.
                   </p>
                 </div>
-                <div class="portfolio-section">
-                  <h2 class="portfolio-title">Growing Business</h2>
-                  <p class="portfolio-text">Приложение</p>
+                <div class="project-card portfolio-section">
+                  <h2 class="project-card__title">Growing Business</h2>
+                  <p class="project-card__text">Приложение</p>
                 </div>
               </a>
             </li>

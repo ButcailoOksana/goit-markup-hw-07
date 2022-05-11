@@ -11,21 +11,21 @@
 	margin: -1px;
 }
 
-.specifics-list {
+.feature {
 	display: flex;
 }
 
-.specifics-section {
+.specifics{
 	margin-top: 0;
 	padding-top: 94px;
 	padding-bottom: 94px;
 }
 
-.specifics-list>.specifics-item:not(:first-child) {
+.feature>.feature__item:not(:first-child) {
 	margin-left: 30px;
 }
 
-.specifics-item {
+.feature__item {
 	width: 270px;
 }
 
@@ -46,7 +46,7 @@
 
 /*SVG*/
 
-.icon {
+.feature__icon {
 	display: flex;
 	align-items: center;
 	justify-content: center;
