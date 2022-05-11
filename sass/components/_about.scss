@@ -1,9 +1,9 @@
-.about-section {
+.about {
 	margin-top: 0;
 	padding: 0 0 94px 0;
 }
 
-.about-title {
+.about__title {
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.17;
@@ -12,19 +12,19 @@
 	margin-bottom: 50px;
 }
 
-.about-list {
+.about__list {
 	display: flex;
 }
 
-.about-list>.about-item:not(:first-child) {
+.about-list>.item:not(:first-child) {
 	margin-left: 30px;
 }
 
-.box-about {
+.box {
 	position: relative;
 }
 
-.text-box-about {
+.text-about {
 	position: absolute;
 	bottom: 0;
 	left: 0;
